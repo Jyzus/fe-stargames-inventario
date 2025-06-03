@@ -1,4 +1,4 @@
-# 🚀 Astro + Svelte Project Structure
+# 🚀 StarGames - Inventario - Documentación
 
 Este proyecto está construido con **Astro** como framework principal y **Svelte** como UI framework. Su arquitectura está diseñada para ser **modular, escalable y mantenible**, ideal para aplicaciones privadas (como dashboards) y públicas (como landing pages).
 
