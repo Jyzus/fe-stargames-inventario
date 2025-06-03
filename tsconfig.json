@@ -5,13 +5,15 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],
       "@modules/*": ["src/modules/*"],
       "@services/*": ["src/services/*"],
       "@styles/*": ["src/styles/*"],
       "@layouts/*": ["src/layouts/*"],
-      "@libs/*": ["src/libs/*"]
+      "@components/*": ["src/shared/components/*"],
+      "@libs/*": ["src/shared/libs/*"],
+      "@interfaces/*": ["src/shared/interfaces/*"],
+      "@enums/*": ["src/shared/enums/*"]
     }
   }
 }
