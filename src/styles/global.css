@@ -1,1 +1,72 @@
 @import "tailwindcss";
+
+@theme {
+
+    --color-primary: #006FEE --color-primary-50: #E6F1FE;
+    --color-primary-100: #CCE3FD;
+    --color-primary-200: #99C7FB;
+    --color-primary-300: #66AAF9;
+    --color-primary-400: #338EF7;
+    --color-primary-500: #006FEE;
+    --color-primary-600: #005BC4;
+    --color-primary-700: #004493;
+    --color-primary-800: #002E62;
+    --color-primary-900: #001731;
+
+    --color-secondary: #ed254e;
+    --color-secondary-50: #fff0f1;
+    --color-secondary-100: #ffe3e5;
+    --color-secondary-200: #ffcbd0;
+    --color-secondary-300: #ffa0ab;
+    --color-secondary-400: #ff6a7e;
+    --color-secondary-500: #fd3655;
+    --color-secondary-600: #ed254e;
+    --color-secondary-700: #c60a35;
+    --color-secondary-800: #a60b34;
+    --color-secondary-900: #8e0d33;
+    --color-secondary-950: #4f0216;
+
+    --color-blue-50: #E6F1FE;
+    --color-blue-100: #CCE3FD;
+    --color-blue-200: #99C7FB;
+    --color-blue-300: #66AAF9;
+    --color-blue-400: #338EF7;
+    --color-blue-500: #006FEE;
+    --color-blue-600: #005BC4;
+    --color-blue-700: #004493;
+    --color-blue-800: #002E62;
+    --color-blue-900: #001731;
+
+    --color-green-50: #E8FAF0;
+    --color-green-100: #D1F4E0;
+    --color-green-200: #A2E9C1;
+    --color-green-300: #74DFA2;
+    --color-green-400: #45D483;
+    --color-green-500: #17C964;
+    --color-green-600: #12A150;
+    --color-green-700: #0E793C;
+    --color-green-800: #095028;
+    --color-green-900: #052814;
+
+    --color-red-50: #FEE7EF;
+    --color-red-100: #FDD0DF;
+    --color-red-200: #FAA0BF;
+    --color-red-300: #F871A0;
+    --color-red-400: #F54180;
+    --color-red-500: #F31260;
+    --color-red-600: #C20E4D;
+    --color-red-700: #920B3A;
+    --color-red-800: #610726;
+    --color-red-900: #310413;
+
+    --color-yellow-50: #FEFCE8;
+    --color-yellow-100: #FDEDD3;
+    --color-yellow-200: #FBDBA7;
+    --color-yellow-300: #F9C97C;
+    --color-yellow-400: #F7B750;
+    --color-yellow-500: #F5A524;
+    --color-yellow-600: #C4841D;
+    --color-yellow-700: #936316;
+    --color-yellow-800: #62420E;
+    --color-yellow-900: #312107;
+}
