@@ -1,0 +1,25 @@
+---
+import Form from "./form.svelte";
+---
+
+<div
+  class="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-800 via-primary-700 to-primary-800 p-4"
+>
+  <div
+    class="w-full max-w-md shadow-2xl border-0 bg-white/95 backdrop-blur-sm rounded-lg"
+  >
+    <!-- Header -->
+    <div class="space-y-1 text-center p-6 pb-0">
+      <h1
+        class="text-3xl font-bold bg-gradient-to-r from-primary-500 to-primary-900 bg-clip-text text-transparent"
+      >
+        Bienvenido
+      </h1>
+      <p class="text-gray-600">Ingresa tus credenciales para acceder</p>
+    </div>
+
+    <div class="space-y-6 p-6">
+      <Form client:load />
+    </div>
+  </div>
+</div>

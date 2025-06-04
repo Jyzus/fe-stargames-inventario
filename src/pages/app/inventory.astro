@@ -1,0 +1,7 @@
+---
+import Private from "@layouts/Private.layout.astro";
+import { validateSession } from "@libs/auth/validate-session.lib";
+validateSession(Astro.cookies, Astro);
+---
+
+<Private>asd</Private>
